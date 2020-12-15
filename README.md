@@ -1,11 +1,11 @@
-## dns-pressure
+## dnspressure
 
 ---
 DNS pressure test tool for golang.
 
 ### Installation
 ```
-go get github.com/devincd/dns-pressure
+go get github.com/devincd/dnspressure
 ```
 
 ### Usage
@@ -15,8 +15,8 @@ The dns-pressure has the following features
 - Rich results analysis
 
 ```
-$ dns-pressure --help
-Usage of dns-pressure:
+$ dnspressure --help
+Usage of dnspressure:
   -concurrent int
     	concurrent users (default 10)
   -domain string
@@ -31,7 +31,7 @@ Usage of dns-pressure:
 
 ### Example
 ```
-$ dns-pressure --domain=www.baidu.com --over-time=10ms
+$ dnspressure --domain=www.baidu.com --over-time=10ms
 ......
 2020/12/15 10:34:57 number: 4995 cost time is 818.25µs
 2020/12/15 10:34:57 number: 4996 cost time is 849.394µs
